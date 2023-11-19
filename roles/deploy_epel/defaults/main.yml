@@ -1,0 +1,3 @@
+---
+# defaults file for deploy_epel
+nginx_listen_port: 8080

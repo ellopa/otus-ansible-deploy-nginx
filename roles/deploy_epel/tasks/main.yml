@@ -1,0 +1,8 @@
+---
+# tasks file for deploy_epel
+- name: NGINX_EPEL | Install EPEL Repo package from standart repo
+  yum:
+    name: epel-release
+    state: present
+  tags:
+    - epel-package
